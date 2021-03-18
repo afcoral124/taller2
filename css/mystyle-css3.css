@@ -1,0 +1,161 @@
+*{
+margin: 0px;
+}
+h1{
+  font: bold 20px verdana, sans-serif;
+}
+h2{
+  font: bold 14px verdana, sans-serif;
+}
+header, section, footer, aside, nav, article, figure, figcaption, hgroup{
+  display: block;
+
+}
+
+body{
+  background: rgb(70, 12, 12);
+}
+
+#group-elements{
+  background: rgb(210, 210, 210);
+  width: 960px;
+  margin: 15px auto;
+  text-align: left;
+
+}
+
+#header-title {
+background: #DDDDDD;
+border: 1px solid #999999;
+margin: 10px auto;
+padding: 20px;
+text-align: center;
+
+-moz-border-radius: 20px 10px 30px 50px;
+-webkit-border-radius: 20px 10px 30px 50px;
+border-radius: 20px 10px 30px 50px;
+
+
+
+-webkit-box-shadow: rgba(150,150,150, 0.5) 10px 10px 10px ;
+
+background: -webkit-linear-gradient(top, #FFFFFF, #990009);
+
+
+-webkit-transform: translateY(20px) rotate(10deg) scaleX(0.9);
+
+-webkit-transition: -webkit-transform 0.5s ease-in-out 0s;
+}
+
+#header-title:hover{
+-webkit-transform: translateY(20px) rotate(15deg) scaleX(0.9);
+background: -webkit-linear-gradient(285deg, #FFFFFF, #990009);
+}
+
+#span-title {
+  font: bold 36px verdana, sans-serif;
+  text-shadow: rgba(0,0,0,0.5) 3px 3px 5px;
+  color: rgba(33, 255, 8, 0.65);
+}
+
+#menu {
+background: #8e8e8e;
+padding: 5px 15px;
+}
+
+
+#menu li{
+  list-style: none;
+  display: inline-block;
+  padding: 5px;
+  font: 1em verdana, sans-serif;
+  color: #b8b8b8;
+  background: #454545;
+  -webkit-border-radius: 10px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.5) 10px 10px 10px ;
+
+}
+
+#menu li:hover {
+  background: #cccccc;
+  color: black;
+}
+
+#section-content {
+  float: left;
+  margin: 19px;
+  width: 660px;
+
+
+}
+
+#imagen1{
+  width: 80%;
+  margin: auto;
+}
+
+#aside-column {
+  float: left;
+  margin: 20px 0px;
+  padding: 19px;
+  width: 220px;
+  background: #ff2828;
+
+  -webkit-transform: translateY(20px)
+}
+
+#footer-foot {
+  clear: both;
+  text-align: center;
+  padding: 20px;
+  border-top: 2px solid #999999;
+}
+
+article {
+  background: #ff2626;
+  margin-bottom: 15px;
+  border: 1px solid #999999;
+  padding: 20px;
+}
+
+article footer {
+  text-align: right;
+}
+
+time {
+  color: #999999;
+}
+
+figcaption {
+font: italic 14px verdana, sans-serif;
+}
+
+
+@font-face {
+  src: url('../assets/fonts/aAsianNinja.ttf');
+  font-family: 'aAsianNinja';
+}
+@font-face {
+  src: url('../assets/fonts/lucy_goosey_black_loose.ttf');
+  font-family: 'LucyGoosey';
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Pompiere&display=swap');
+
+#fuente1 {
+  font-family: aAsianNinja, sans-serif;
+  font-size: 20px;
+  color: white;
+}
+
+#fuente2 {
+  font-family: LucyGoosey, sans-serif;
+  font-size: 20px;
+  color: white;
+}
+
+#fuente3 {
+  font-family: 'Pompiere';
+  font-size: 30px;
+  color: white;
+}
